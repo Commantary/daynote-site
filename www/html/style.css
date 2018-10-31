@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    /*margin-left: 20px;*/
+    font-family: Monospace;
+    font-size: 35px;
+}
+
+.P1 {
+	font-size: 14px;
+    text-align: center;
+}
