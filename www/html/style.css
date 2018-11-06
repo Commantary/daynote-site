@@ -1,34 +1,97 @@
 body {
-    background-color: lightblue;
-}
-
-h1 {
-	background-color: white;
-    color: black;
-    text-align: center;
-    /*margin-left: 20px;*/
-    font-family: Monospace;
-    font-size: 35px;
-}
-
-.P1.blocktext {
-	margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    /*text-align: center;*/
-}
-
-.P1 {
-	font-size: 14px;
-}
-
-.div1 {
-	border: 5px solid black;
-
+	background-color: lightblue;
 	text-align: center;
-	background-color: white;
 }
 
-.pied_de_page {
-	font-size: 12px;
+#body {
+	font-family: sans-serif;
+	background-color: white;
+	display: flex;
+	width: 90%;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	text-align: center;
+}
+
+.page-header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.navUl {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #58FAF4;
+}
+
+.navUl li {
+	float: left;
+}
+
+.navUl li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navUl li a:hover {
+	background-color: #01DFD7;
+}
+
+.lastNote {
+	width: 40%;
+	
+}
+
+.lastNote h2 {
+	margin-left: 300px;
+	display: block;
+	background-color: #eee;
+	text-align: center;
+	padding: 14px 16px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 3px;
+}
+
+.lastNote div {
+	margin-top: -20px;
+	margin-left: 300px;
+	display: block;
+	background-color: #F2F2F2;
+	text-align: center;
+	padding: 14px 16px;
+	border-style: solid;
+	border-color: grey;
+	border-top: none;
+	border-width: 3px;
+}
+.lastNote a {
+    text-decoration: none;
+}
+.lastNote a:hover {
+    text-decoration: underline;
+}
+.citation {
+	text-align: left;
+}
+.guillemet-1 {
+	margin-left: -15px;
+	margin-top: -10px;
+	text-align: left;
+	font-size: 20px;
+	font-family: serif;
+}
+.guillemet-2 {
+	margin-right: -15px;
+	margin-bottom: -20px;
+	text-align: right;
+	font-size: 20px;
+	font-family: serif;
 }
