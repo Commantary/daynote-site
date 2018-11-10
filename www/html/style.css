@@ -129,3 +129,9 @@ body {
     font-weight: bold;
 
 }
+.mail {
+	text-decoration: none;
+}
+.mail:hover {
+	text-decoration: underline;
+}
