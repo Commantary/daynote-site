@@ -1,0 +1,137 @@
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+#body {
+	font-family: sans-serif;
+	background-color: white;
+	display: flex;
+	width: 90%;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	text-align: center;
+}
+
+.page-header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.navUl {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #01DFD7;
+}
+
+.navUl li {
+	float: left;
+}
+
+.navUl li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navUl li a:hover {
+	background-color: #088A85;
+}
+
+.lastNote {
+	width: 30%;
+	display: flex;
+	width: 300px;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.lastNote h2 {
+	display: inline-block;
+	background-color: #CEECF5;
+	text-align: center;
+	padding: 14px 16px;
+	border-style: solid;
+	border-color: #0174DF;
+	border-width: 3px;
+}
+
+.lastNote div {
+	margin-top: -20px;
+	/*margin-left: 300px;*/
+	background-color: #CEECF5;
+	/*padding: 14px 16px;*/
+	border-style: solid;
+	border-color: #0174DF;
+	border-top: none;
+	border-width: 3px;
+}
+.lastNote a {
+    text-decoration: none;
+}
+.lastNote a:hover {
+    text-decoration: underline;
+}
+.citation {
+	text-align: left;
+	margin-top: -35px;
+}
+.guillemet-1 {
+	margin-left: -18px;
+	margin-top: -5px;
+	text-align: left;
+	font-size: 40px;
+	font-family: serif;
+}
+.guillemet-2 {
+	margin-right: -18px;
+	margin-bottom: -20px;
+	margin-top: -5px;
+	text-align: right;
+	font-size: 40px;
+	font-family: serif;
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-history {
+	display: flex;
+
+}
+.vertical {
+	list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 400px;
+    
+}
+.vertical li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid grey;
+}
+/* Change the link color on hover */
+.vertical li a:hover {
+    background-color: #58FAD0;
+    color: white;
+    font-weight: bold;
+
+}
+.mail {
+	text-decoration: none;
+}
+.mail:hover {
+	text-decoration: underline;
+}
